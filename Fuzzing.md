@@ -6,3 +6,6 @@ Dựa trên kỹ thuật timebased: sử dụng các hàm thao tác với thời
 Đoạn mã PHP:. <?php. if (isset( _GET[&apos;msg&apos;] ) ){.echo &apos;&lt;h1&gt;&apos;._GET['msg'].'</h1>';. } .?>. Tuy nhiên một hacker thay vì việc nhập vào dữ liệu hợp lệ có thể nhập vào những thẻ HTML và mã Javascript ví dụ như: http://fuzzing.vn:8001/Vulns/XSS/example.php?.msg=<script>alert(document.cookie)</scsript> 
 Đế phát hiện lỗi này chúng ta sẽ thực hiện tạo fuzzer gửi một chữ ký kèm những đoạn mã đặc biệt tới hệ thống như: .<scipt>alert(1223)</script>.“><scipt>alert(1223)</script>.“ onmouseover=alert(123445) foo=”
 Để phát hiện lỗi này chúng ta sẽ thực hiện đưa vào những giá trị của các tệp tin có thể và kiểm tra kết quả trả về để đánh giá việc tồn tại của lỗ hổng. Ví dụ:. / / /etc/passwd.- / / /etc/shadow.- / /apache/logs/access.log. Việc chèn số các “ /” là do chương trình phát hiện sẽ tự động thêm vào.
+
+![305966405_831544691208113_6765267647051335438_n](https://github.com/NguyenNhutY/Computer_Networks/assets/130396826/25c08c0f-cad0-4ae1-85c5-4f5ed1f27da0)
+![307675093_831544594541456_4646362144844266861_n](https://github.com/NguyenNhutY/Computer_Networks/assets/130396826/b74b8892-d733-4cdf-ab68-4aa8b11128e4)
