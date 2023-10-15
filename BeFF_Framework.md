@@ -82,3 +82,11 @@ http://<IP>:3000/ui/panel
 Một cửa sổ yêu cầu đăng nhập, bạn đăng nhập bằng tên đăng nhập và mật khẩu mặc định là beef. Và bạn cũng có thể thay đổi trong file cấu hình /usr/share/beef-xss/config.yamlto.
 Trang web Demo 1: http://<IP>:3000/demos/basic.html
 Trang web Demo 2: http://<IP>:3000/demos/butcher/index.html
+
+
+![305958612_831526307876618_9131065325802753900_n](https://github.com/NguyenNhutY/Computer_Networks/assets/130396826/3c1e29c4-1d23-4989-b37e-4fc6c0b71e46)
+![306964053_831526154543300_3530839628808834855_n](https://github.com/NguyenNhutY/Computer_Networks/assets/130396826/8b5eb807-af77-4f88-9a56-2d3f1fa5af74)
+![307382154_831526041209978_4068041025520495048_n](https://github.com/NguyenNhutY/Computer_Networks/assets/130396826/3ffcfc41-bbce-42f5-8cd6-81773cbf3588)
+![306938180_831523944543521_2721496235238299375_n](https://github.com/NguyenNhutY/Computer_Networks/assets/130396826/541a186a-ce99-4cf1-9573-9e4099b58456)
+![307317988_831523774543538_2085703357776021444_n](https://github.com/NguyenNhutY/Computer_Networks/assets/130396826/bef4bd12-b051-49e7-b825-cc3c72a0d4ff)
+![306658765_831526441209938_6785713292026902660_n](https://github.com/NguyenNhutY/Computer_Networks/assets/130396826/c28853da-733b-41a9-bb9b-0f8ed5d61491)
