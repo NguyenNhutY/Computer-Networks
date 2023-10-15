@@ -55,3 +55,6 @@ nạn nhân để cho phép NAT traversal cho
 những kẻ tấn để kết nối trở lại và trò chuyện 
 với anh ta. Tuy nhiên, kẻ tấn công có chỉ 
 định cổng .
+
+![306730057_831515267877722_6173153203408648818_n](https://github.com/NguyenNhutY/Computer_Networks/assets/130396826/8f28b8c2-9118-418d-ad53-9769b116d0d9)
+
