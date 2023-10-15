@@ -19,3 +19,16 @@ Ví dụ: msf > connect 118.69.228.254 22
 - Use: Cho phép chọn một một module.
 - Auxiliary: Là một module cung cấp chưc năng tăng cường cho các thử nghiệm xâm nhập và quét lỗ hổng cùng với các tác vụ tự động. Phân loại trong auxiliary module: module quét các giao thức (như SMB, HTTP), module quét các port, wireless, IPV6, DOS, Server modules, Module khai thác truy cập quản trị.
 - Exploits: Là một module dùng để khai thác các dịch vụ.
+
+![305665057_831535984542317_140930411404261764_n](https://github.com/NguyenNhutY/Computer_Networks/assets/130396826/f70d00dc-94cb-48d0-9228-c5820b1672e1)
+![307022942_831535884542327_3497834573274201593_n](https://github.com/NguyenNhutY/Computer_Networks/assets/130396826/684d4d8a-3715-449e-8901-f9d4b087be88)
+![307378749_831535277875721_3504911254539828589_n](https://github.com/NguyenNhutY/Computer_Networks/assets/130396826/4e3cec4e-8e92-45d7-8d39-1b6331c24492)
+![306626633_831534711209111_8900953590861741836_n](https://github.com/NguyenNhutY/Computer_Networks/assets/130396826/6c0f2be1-ff6b-4e79-831d-5a21f5be1e34)
+![307368868_831534387875810_4267889327603797756_n](https://github.com/NguyenNhutY/Computer_Networks/assets/130396826/6587c727-8623-4292-b3c4-9825934580dc)
+![306975625_831534177875831_1181757606774464599_n](https://github.com/NguyenNhutY/Computer_Networks/assets/130396826/c27b42fa-297a-4c70-9a4d-ce39e3dc117d)
+![306788849_831534037875845_2264104271119857945_n](https://github.com/NguyenNhutY/Computer_Networks/assets/130396826/59727d95-1d6e-424d-86b1-9c6dfca04b17)
+![308679524_831533884542527_4771229869976551997_n](https://github.com/NguyenNhutY/Computer_Networks/assets/130396826/056ad89f-8849-4370-a727-aabe779d7118)
+![307872467_831533704542545_7542365147633236167_n](https://github.com/NguyenNhutY/Computer_Networks/assets/130396826/f40aa010-0b39-48ce-8fbd-ebb1b210f4d0)
+![306169518_831533561209226_3859811573612691051_n](https://github.com/NguyenNhutY/Computer_Networks/assets/130396826/41b01f47-affc-4d8f-97be-0bc39c96907a)
+![306359449_831532864542629_561318516582448428_n](https://github.com/NguyenNhutY/Computer_Networks/assets/130396826/93d24bfa-bbe2-4093-aaf7-f3b0e147b0d2)
+![308116558_831536577875591_9113790937455689919_n](https://github.com/NguyenNhutY/Computer_Networks/assets/130396826/7c21adc3-6b90-4c86-881c-fe389a1a883f)
