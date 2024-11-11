@@ -1,0 +1,9 @@
+;/*FB_PKG_DELIM*/
+
+__d("LSUpdateBackgroundAccountNotifEnabled",[],(function(a,b,c,d,e,f){function a(){var a=arguments,b=a[a.length-1],c=[];return b.resolve(c)}a.__sproc_name__="LSOmnistoreSettingsUpdateBackgroundAccountNotifEnabledStoredProcedure";e.exports=a}),null);
+__d("LSUpdateCCNotificationsEnabled",[],(function(a,b,c,d,e,f){function a(){var a=arguments,b=a[a.length-1],c=[];return b.resolve(c)}a.__sproc_name__="LSOmnistoreSettingsUpdateCCNotificationsEnabledStoredProcedure";e.exports=a}),null);
+__d("LSUpdateCMChannelInvitationNotifEnabled",[],(function(a,b,c,d,e,f){function a(){var a=arguments,b=a[a.length-1],c=[];return b.resolve(c)}a.__sproc_name__="LSOmnistoreSettingsUpdateCMChannelInvitationNotifEnabledStoredProcedure";e.exports=a}),null);
+__d("LSUpdateCMPromotionalChannelNotifEnabled",[],(function(a,b,c,d,e,f){function a(){var a=arguments,b=a[a.length-1],c=[];return b.resolve(c)}a.__sproc_name__="LSOmnistoreSettingsUpdateCMPromotionalChannelNotifEnabledStoredProcedure";e.exports=a}),null);
+__d("LSUpdateFBMEnabledTimeSettings",[],(function(a,b,c,d,e,f){function a(){var a=arguments,b=a[a.length-1],c=[];return b.resolve(c)}a.__sproc_name__="LSOmnistoreSettingsUpdateFBMEnabledTimeSettingsStoredProcedure";e.exports=a}),null);
+__d("LSUpdateMessengerMemoriesNotifEnabled",[],(function(a,b,c,d,e,f){function a(){var a=arguments,b=a[a.length-1],c=[];return b.resolve(c)}a.__sproc_name__="LSOmnistoreSettingsUpdateMessengerMemoriesNotifEnabledStoredProcedure";e.exports=a}),null);
+__d("LSUpdateNotesNotifEnabled",[],(function(a,b,c,d,e,f){function a(){var a=arguments,b=a[a.length-1],c=[];return b.resolve(c)}a.__sproc_name__="LSOmnistoreSettingsUpdateNotesNotifEnabledStoredProcedure";e.exports=a}),null);
