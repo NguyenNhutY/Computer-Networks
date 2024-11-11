@@ -1,0 +1,101 @@
+
+.item{
+    background:url(./highlands.png);
+    width: 1080px;
+    height: 1920px;
+    border-radius: 2px;
+    margin:auto ;
+    box-shadow: inset 0px 0px 0px 20px rgba(255,255,255,0.44);
+    position:relative;
+    perspective: 2000px;
+}
+.trang
+{
+    width:1040px;
+    height: 1880px;
+    background:white;
+    position:absolute;
+    top: 20px;
+    left: 20px;
+    box-shadow: inset 0px 0px 2px 2px rgba(0, 0, 0,0.23);
+}
+.den{
+
+    width: 1040px;
+    height: 1880px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transition: transform .6s linear 0s;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+
+}
+.den1
+{
+    background: url(./highlands.png);
+}
+.den2
+{
+    background:url(./bang_lang.png);
+}
+.den3
+{
+    background:url(./pey.png);
+
+}
+.den4
+{
+    background:url(./gio.png);
+
+}
+.den5
+{
+    background:url(./uLaSky.png);
+
+}
+
+.xanh
+{
+    width: 1040px;
+    height: 1880px;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    font-size:88px;
+    padding: 40px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    transition: transform .6s linear 0s;
+    backface-visibility: hidden;
+    transform: rotateY(0deg);
+}
+.item:hover .xanh
+{
+    transform: rotateY(-180deg);
+}
+.item:hover .den
+{
+    transform:  rotateY(0deg);
+
+}
+
+.container {
+
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1080px 1080px 1080px 1080px 1080px;
+    grid-template-rows: 1920px;;
+    width:100%;
+     /* Sửa ở đây nha*/
+  /* justify-items: stretch; */
+  /* justify-content: space-evenly; */
+
+  }
+body
+{
+    margin:0px;
+    padding:0px;
+
+}

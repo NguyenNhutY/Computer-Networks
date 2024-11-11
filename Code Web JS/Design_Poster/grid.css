@@ -1,0 +1,51 @@
+blockquate::after,
+q:before,
+q:after{
+    content:"";
+    content:none;
+}
+
+table{
+    border-collapse:collapse;
+    border-spacing: 0;
+}
+
+html{box-sizing:border-box;}
+
+img{vertical-align:middle;}
+
+*,*::before,*::after{box-sizing: inherit;}
+
+
+button{
+    font-family:"Montserrat", sans-serif;
+    font-weight:400;
+    cursor:pointer;
+}
+
+.container {
+    background-image: linear-gradient(to right bottom, #ffa400, #e74c3c);
+    height: auto;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 100px 100px; /* Sửa ở đây nha*/
+  /* justify-items: stretch; */
+  /* justify-content: space-evenly; */
+  justify-self: center;
+  }
+  .item {
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 2px solid orange;
+    
+  }
+  /* .item1{
+    grid-column-start: 1;
+    grid-column-end: -;
+
+  } */

@@ -1,0 +1,184 @@
+:root {
+    --primary-color:green; /* định nghĩa giá trị cho biến số */
+  }
+.card
+{
+    margin:50px auto;
+    height:480px;
+    background:black;
+    border-radius: 15px;
+    color:white;
+    padding:20px;
+    position:relative;
+    box-shadow: 2px 2px 5px rgba(131,58,180,1);
+    cursor:pointer;
+    &:hover
+    {
+        opacity:0.9;
+    }
+    &:hover .card_img
+    {
+        transform:translateY(-90px) rotate(-20deg);
+    }   
+    &:hover .card_title
+    {
+        transform:translate(-38px, -137px);
+    }
+    &:hover .card_price
+    {
+        transform: translate(-77px,-137px);
+    }
+    &:hover .card_size
+    {
+        margin-top:-30px;
+}
+}
+.card_cart
+{
+    left:unset;
+    right:20px;
+    .card_heart{
+        font-size :25px;
+        position:absolute;
+        left:20px;
+        top:15px;
+    }
+}
+.card_img
+{
+    width:98%;
+    transition:0.5s;
+    img
+    {
+        width: 10px;
+        height:10px;
+        object-fit: cover;
+    }
+}
+
+.card_price
+{
+    text-align:center;
+    .card_title
+    {
+        font-size: 25px;
+        font-weight:bold;
+        text-align:center;
+        transition:0.5s;
+    }
+}
+
+
+.card_size, .card_color
+{
+    display:flex;
+    align-items:center;
+    margin-bottom:10px;
+}
+.card_size button
+{
+    padding: 1px 5px;
+    background:white;
+    color: black;
+    width:25px;
+    height:25px;
+    margin:8px;
+    border-radius: 50%;
+    font-weight:bold;
+}
+.card_color button
+{
+    width:25px;
+    height:25px;
+    border-radius:5px;
+    margin:0 8px;
+}
+
+
+.card_action button
+{
+    background: var(--primary-color);
+    border:none;
+    outline:none;
+    color:white;
+    padding:10px 20px;
+    border-radius:5px;
+    font-weight:bold;
+    margin:5px;
+}
+
+.card_size, .card_action, .card_color
+{
+    transition:0.5s;
+    visibility:hidden;
+    opacity:0.5;
+    transition-delay:0.2s;
+}
+.card_size
+{
+    margin-top: 150px;
+
+    .card_color
+    {
+        display:flex;
+        align-items:center;
+    
+        .card_action
+        {
+        transition:0.5s;
+        visibility:hidden;
+        opacity:0.5;
+        transition-delay:0.2s;
+        }
+    }
+}
+.card:hover .card_size, 
+.card:hover .card_color,
+.card:hover .card_action
+{
+    visibility:visible;
+    opacity:100;
+    transform: translate(37px,-120px);
+}
+
+.icon_heart
+{
+    width:25px;
+    height:25px;
+}
+.card_action button:hover
+{
+    background-color: red;
+}
+.card_action button:active
+{
+    opacity:0.5;
+}
+.card_size button:hover,  .card_color button:hover
+{
+    opacity:0.5;
+}
+
+.text_title
+{
+    font-size: 25px;
+    font-weight:bold;
+    text-align:center;
+    transition:0.5s;
+    color:white;
+    margin-top:50px;
+}
+
+.text_footer
+{
+    margin-top:100px;
+}
+
+.card_color button, .card_size button
+{
+    border: 1px solid white;
+}
+
+.button:focus {
+    background-color: red;
+}
